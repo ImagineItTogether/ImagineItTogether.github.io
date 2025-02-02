@@ -17,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Cinzel;
+    font-family: Lexend;
     font-weight: bold;
     text-shadow: .5px .5px .5px black, -.5px -.5px 0px #e4e1e1;
     text-decoration: underline;
@@ -49,7 +49,7 @@ h6 {
 }
 
 p {
-    font-family: Libre;
+    font-family: Lexend;
     font-size: 12px;
 }
 
@@ -58,13 +58,13 @@ a {
 }
 
 @font-face {
-    font-family: 'Cinzel';
-    src: url('../assets/fonts/Cinzel_Decorative/CinzelDecorative-Regular.ttf') format('truetype');
+    font-family: 'Lexend';
+    src: url('../assets/fonts/Lexend/Lexend-VariableFont_wght.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Libre';
-    src: url('../assets/fonts/Libre_Baskerville/LibreBaskerville-Bold.ttf') format('truetype');
+    font-family: 'Lexend';
+    src: url('../assets/fonts/Lexend/Lexend-VariableFont_wght.ttf') format('truetype');
 }
 
 @media (max-width: 768px) {
