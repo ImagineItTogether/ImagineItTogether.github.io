@@ -72,3 +72,47 @@ a {
         width: 95%;
     }
 }
+
+.dice-core-block {
+    width: 20%;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.dice-core-block img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.us-img {
+    padding-top: 10px;
+    background-color: white;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.featured {
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+    .content-body {
+        width: 95%;
+    }
+
+    .dice-core-content {
+        display: block;
+    }
+
+    .us-img {
+        width: 90%;
+    }
+
+    .featured {
+        width: 90%
+    }
+}
